@@ -9,7 +9,7 @@ contract PiggyBank {
     event WithdrawalMade(address indexed user, uint256 amount, uint256 newBalance, uint256 timestamp);
 
     // Function to deposit money into the piggy bank
-    function deposit(uint256 _amount) external {
+    function deposite(uint256 _amount) external {
         require(_amount > 0, "Deposit amount must be greater than zero.");
         
         // Increase the user's balance
